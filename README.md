@@ -1,2 +1,3 @@
-# OCUDoc
-A documentation portal written in ColdFusion holding both developer and end user documentation.
+# OCU Docs
+
+OCU Docs is a documentation portal written in ColdFusion to house both developer and end user documentation.

@@ -1,0 +1,481 @@
+/* color palette 
+ * Dark 	7d8524
+ * 			bbc737
+ * 			e4e8af
+ * 			edf0c9
+ * Light  	f6f7e4
+ */
+body{
+	/*background: url('../images/leftnav.png') no-repeat 20px 5px;*/
+	padding: 1em;
+	margin: 0 0 0 0;
+	font-family: Tahoma, Arial;
+	height:100%
+}
+a {
+	color:#7d8524;
+	text-decoration:none;
+}
+a:hover {
+	color:#bbc737;
+	text-decoration:underline;
+}
+small {
+	font-size: 80%;
+}
+small.small-block {
+    font-size: 70%;
+    color: #ABA7A7;
+    display: block;
+}
+#blogTitle {
+	font-size: 22px;
+	color:#7d8524;
+	padding:0 0 6px 0;
+	border-bottom:1px solid #e4e8af;
+}
+#header {
+	font-size: 22px;
+	margin:0;
+	color:#444;
+	border-top: 1px solid #215a94;
+}
+
+#admin-logo h2 {
+	background: #215a94;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+    color: white;
+    border: 1px solid black;
+}
+
+#menu {
+	float:left;
+	margin:0px 0 0 5px;
+	padding: 10px;
+	font-family: Arial;
+	font-size:15px;
+	width: 200px;
+	border:1px solid #215a94;
+}
+
+#menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	border-top: 1px solid #215a94;
+	border-bottom: 1px solid #215a94;
+}
+
+#menu a {
+	color: #333;
+	text-decoration: none;
+	display: block;
+	width: 190px;
+	padding: 5px 5px 5px 5px;
+}
+
+#menu a:hover {
+	border: 1px solid #375EC7;
+    color: #00097D;
+    padding: 4px 4px 4px 4px;
+}
+
+#menu a small {
+	color: #A7A2A2;
+    float: right;
+    margin-top: 2px;
+}
+
+#content {
+	margin: 0px 5px 0 270px;
+	font-family: Arial;
+	overflow:auto;
+}
+
+.txtField {
+	width: 400px;
+}
+
+.txtFieldShort {
+	width: 200px;
+}
+
+.txtArea {
+	width: 100%;
+	height: 300px;
+}
+
+.txtAreaShort {
+	width: 500px;
+	height: 100px;
+}
+
+.txtDropdown {
+	width: 100%;
+}
+
+.errors {
+	font-weight: bold;
+	color: red;
+	border: 1px solid #999;
+	margin-top: 10px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.message {
+	font-weight: bold;
+	border: 1px solid #999;
+	margin-top: 10px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+#main textarea#body, #related select {
+    width: 600px !important;
+}
+
+#main textarea#body {
+	height: 300px !important;
+	min-height: 300px !important;
+}
+
+a#uploadImage {
+      
+}
+
+.btn {
+    font-family: inherit;
+    font-size: 80%;
+    padding: .5em 1em;
+    color: #444;
+    color: rgba(0,0,0,.8);
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    background: #E6E6E6;
+    text-decoration: none;
+    border-radius: 2px;
+    display: inline-block;
+    zoom: 1;
+    line-height: normal;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.btn-hover, .btn:hover, .btn:focus {
+	text-decoration: none;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#1a000000', GradientType=0);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(transparent),color-stop(40%,rgba(0,0,0,.05)),to(rgba(0,0,0,.1)));
+    background-image: -webkit-linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1));
+    background-image: -moz-linear-gradient(top,rgba(0,0,0,.05) 0,rgba(0,0,0,.1));
+    background-image: -o-linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1));
+    background-image: linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1));
+ }
+
+.btn-blue,
+.btn-green,
+.btn-red,
+.btn-orange,
+.btn-ltblue {
+    color: white !important;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+
+.btn-green {
+    background: rgb(28, 184, 65); 
+}
+
+.btn-red {
+    background: rgb(202, 60, 60); 
+}
+
+.btn-orange {
+    background: rgb(223, 117, 20); 
+}
+
+.btn-ltblue {
+    background: rgb(66, 184, 221); 
+}
+.btn-blue {
+    background: rgb(60, 110, 202);
+        
+}
+.btn-delete {
+	padding: 4px 6px;
+    font-size: 70% !important;
+    float: right;
+    margin-right: 6px;
+	position: relative;
+    top: -2px;
+}
+
+.ctrlHolder {
+    margin: 6px;
+}
+
+.inlineLabels, .blockLabels {
+	margin: 1px !important;
+}
+
+.highlight-box {
+	background: #FFFEE0;
+    padding: 10px 0px;
+    border: 1px solid gainsboro;
+}
+.delete-btn {
+	float: right;
+    margin-right: 4px;
+    font-size: 80% !important;
+    position: relative !important;
+    top: -2px !important;
+}
+.previewEntry {
+	border: 1px solid #999;
+	margin-top: 10px;
+	padding: 10px;
+	margin-bottom: 10px;
+	
+	font-family: "Trebuchet MS", verdana, arial, sans-serif;
+ 	font-size: .7em;
+ 	color: #000000;
+ 	margin-left: 0px;
+
+}	
+#entry-btns {
+	margin-top: 25px;
+    text-align: right
+}
+.adminListHeader {
+	background-color:white;
+	color:#7d8524;
+	font-weight: bold;
+}
+.adminListHeader a { 
+	color:#7d8524;
+}
+.adminListHeader a:hover { 
+	color:#bbc737;
+}
+.adminListTable{
+	width:98%;
+	}
+
+.adminListTable {
+	border: 1px solid #edf0c9;
+	color:#444;
+}
+.adminListTable td {
+	
+}
+
+.adminList0 {
+	background-color: #f6f7e4;
+}
+
+.adminList1 {
+	background-color: #edf0c9;
+}
+
+.button {
+	text-decoration:none;
+	background:#fff;
+	border:1px solid #edf0c9;
+	margin: 0 0 0 0;
+	padding: 0 .2em 0 .2em;
+}
+.button:hover {
+	text-decoration:none;
+	background:#f6f7e4;
+	border:1px solid #e4e8af;
+	margin: 0 0 0 0;
+	padding: 0 .2em 0 .2em;
+}
+.buttonbar {
+	margin:1em 1.2em 1em 0;
+	text-align:right;
+}
+
+/* login screen */
+	#login {
+		background-image:url('../images/login-bg.png');
+		background-position:center;
+		position: fixed;
+		top: 40%;
+		left: 50%;
+		margin-top: -135px;
+		margin-left: -250px;
+		-moz-border-radius: 6px;
+		-webkit-border-radius: 6px;
+		border-radius: 6px;
+		-moz-box-shadow: 0px 0px 6px #000000;
+		-webkit-box-shadow: 0px 0px 6px #000000;
+		box-shadow: 0px 0px 6px #000000;
+
+
+	}
+
+	#login-logo {
+		text-align: center;
+	}
+	#login-logo h1 {
+		font-family: 'Passion One', cursive;
+		color: #fff;
+		font-size: 330%;
+		margin: 12px 0 0 0;
+	}
+	#login-logo p {
+    font-family: 'Bad Script', cursive;
+    color: rgba(255, 255, 255, 0.71);
+    font-size: 150%;
+    margin: 2px 0 0 0;
+    word-spacing: .3em;
+}
+
+/* Hack to make the login display correctly in IE7 as it doesn't support padding on tables */
+html>body #login { *padding: 8em 8em 3em 8em; }
+
+	#logintable {
+		color: #FAFFBD;
+		font-size: 12px;
+		padding:2.5em 8em 3em 8em;
+	}
+	#logintable tr td a {
+		text-decoration: none;
+	}
+	#loginfooter {
+		padding:3em 0 0 0;
+		text-align:right;
+		font-size:9px;
+		color:#000;
+	}
+	#loginfooter a {
+		margin:1em;
+		color:#7d8524;
+	}
+	#loginfooter a:hover {
+		margin:1em;
+		color:#bbc737;
+	}
+	#username {
+		width:15em;
+	}
+	#password {
+		width:15em;
+	}
+	#about {
+		background:white;
+		border:1px solid #edf0c9;
+		padding: 10px 10px 10px 10px;
+		position: fixed;
+		top: 40%;
+		left: 50%;
+		width:413px;
+		margin-top: 60px;
+		margin-left: -234px;
+		display:none;
+	}
+#btn-div {
+	width: 605px;
+	margin-left: 170px;
+	
+}
+
+.text-center {
+	text-align: center;
+}
+
+
+/* Fieldset styles */
+	#editForm fieldset {
+		margin: 1.5em 0 0 0;   
+		padding: .3em; 
+		border:none;
+		max-width:800px;
+		font-size: 1.2em;
+	}  
+
+	fieldset {
+		margin: 1.5em 0 0 0;   
+		padding: .3em; 
+		border:1px dotted #e4e8af;
+		max-width:800px;
+	}  
+	legend {   
+		margin-left: 1em;   
+		color: #7d8524;   
+		font-weight: bold;  
+		background-color:white;
+	}  
+	fieldset ul {   
+		padding: 1em 1em 0 1em;
+		margin:0;  
+		list-style: none;  
+	}  
+	fieldset li {   
+		padding-bottom: .5em;  
+	}  
+	fieldset.submit {   
+		border-style: none;  
+	}
+	label {    
+		float: left;    
+		width: 10em;    
+		margin-right: 1em;    
+		text-align: right;
+	}
+
+/* hacks for IE 7 */
+	select {
+		min-width : 208px;
+	}
+	option {
+		min-width : 208px;
+	}
+	.inlineLabels input, .blockLabels input {
+    min-width: 600px !important;
+}
+
+	#admin-footer {
+		position: absolute;
+		bottom:0px;
+		right: 10px;
+		color: #cecece;
+	}
+	#admin-footer a {
+		color: #cecece;
+	}
+	#admin-footer small {
+		font-size: 60%;
+	}
+	h3 {
+		border-bottom: 1px dashed #D5D5D6;
+	}
+	.ui-widget {
+    font-size: .8em !important;
+}
+
+input[type="submit"] {
+	min-width: 100px !important;
+}
+#alert {
+	margin: 15px 0;
+	padding: 15px;
+	border: 5px solid black;
+	background-color: #215194;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+}
